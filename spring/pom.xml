@@ -8,10 +8,15 @@
         <version>2.3.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.wangzemin</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>spring</artifactId>
+    <packaging>pom</packaging>
     <modules>
         <module>environment</module>
+        <module>context</module>
     </modules>
     <dependencies>
         <dependency>
@@ -36,8 +41,7 @@
             </exclusions>
         </dependency>
     </dependencies>
-    <artifactId>spring</artifactId>
-    <packaging>pom</packaging>
+
     <build>
         <plugins>
             <plugin>
