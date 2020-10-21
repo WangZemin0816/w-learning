@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring</module>
+        <module>junit</module>
     </modules>
 
     <groupId>com.wangzemin</groupId>
