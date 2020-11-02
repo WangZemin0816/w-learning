@@ -6,6 +6,7 @@
     <modules>
         <module>spring</module>
         <module>junit</module>
+        <module>java-reflect</module>
     </modules>
 
     <groupId>com.wangzemin</groupId>
