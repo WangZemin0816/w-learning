@@ -7,6 +7,7 @@
         <module>spring</module>
         <module>junit</module>
         <module>java-reflect</module>
+        <module>jpa-learn</module>
     </modules>
 
     <groupId>com.wangzemin</groupId>
@@ -16,7 +17,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>15</java.version>
+        <java.version>11</java.version>
     </properties>
 
 
