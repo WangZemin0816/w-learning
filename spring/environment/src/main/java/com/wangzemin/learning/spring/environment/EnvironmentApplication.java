@@ -4,6 +4,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.config.ConfigFileApplicationListener;
 import org.springframework.core.env.MapPropertySource;
 
 import java.util.HashMap;
@@ -26,7 +27,7 @@ public class EnvironmentApplication {
         myMap.put("xyz", "myValue");
         application.setDefaultProperties(myMap);
         application.run(args);
-
+        ConfigFileApplicationListener r;
         SpringApplication.run(EnvironmentApplication.class);
     }
 }
