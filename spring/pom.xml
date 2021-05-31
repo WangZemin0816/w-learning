@@ -18,6 +18,7 @@
         <module>environment</module>
         <module>context</module>
         <module>validator</module>
+        <module>spel</module>
     </modules>
     <dependencies>
         <dependency>

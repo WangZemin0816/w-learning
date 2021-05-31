@@ -3,6 +3,7 @@ package com.wangzemin.learning.spring.validator.processor;
 import lombok.extern.apachecommons.CommonsLog;
 import org.hibernate.validator.internal.engine.ValidatorImpl;
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Validator;
@@ -22,6 +23,7 @@ public class ValidatorPostProcessor implements BeanPostProcessor {
         if (bean instanceof Validator){
 //            LocalValidatorFctoryBean b;
 //            ConstraintValidatorFactory f;
+            BeanFactory f;
             ValidatorFactory validatorFactory;
             ValidatorImpl impl;
             int a = 0;
