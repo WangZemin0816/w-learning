@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import java.beans.*;
 
-import static java.beans.Introspector.IGNORE_ALL_BEANINFO;
 import static org.junit.Assert.assertNotNull;
 
 /**

@@ -1,7 +1,5 @@
 package com.wangzemin.learning.java.reflect;
 
-import com.wangzemin.learning.java.reflect.domain.ReflectModel;
-import org.junit.ClassRule;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
