@@ -5,8 +5,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring</module>
-        <module>junit</module>
-        <module>java-reflect</module>
         <module>jpa-learn</module>
         <module>java-base</module>
     </modules>

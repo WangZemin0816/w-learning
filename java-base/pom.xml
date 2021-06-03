@@ -12,12 +12,14 @@
     <artifactId>java-base</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>servlet-learning</module>
+        <module>java-servlet</module>
+        <module>java-reflect</module>
+        <module>junit</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
 </project>
